@@ -1,2 +1,2 @@
 # news-aggregator
-Backoffice for RSS XML feeds from multiple sources.
+Back-office for RSS XML feeds from multiple sources.

@@ -14,7 +14,7 @@ plugins {
 
 group = "eu.pedrazamiguez"
 version = "0.0.1-SNAPSHOT"
-description = "Back-office for RSS XML feeds from multiple sources."
+description = "Back-office to manage RSS XML feeds from multiple sources."
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {

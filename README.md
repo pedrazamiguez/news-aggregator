@@ -1,5 +1,5 @@
 # news-aggregator
-Back-office for RSS XML feeds from multiple sources.
+Back-office to manage RSS XML feeds from multiple sources.
 
 # How to set up local environment
 ## Create a MySQL server instance with docker

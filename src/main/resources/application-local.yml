@@ -1,0 +1,13 @@
+# Database configuration
+spring.jpa:
+  hibernate.ddl-auto: update
+  show-sql: true
+  properties.hibernate.format_sql: true
+spring.datasource:
+  url: "jdbc:mysql://127.0.0.1:3306/newsaggregator"
+  username: "newsaggregator"
+  password: "ic9d3L!Hq^54"
+
+# Logging configuration
+logging.level:
+  eu.pedrazamiguez.webapps.newsaggregator: DEBUG

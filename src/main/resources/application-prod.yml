@@ -1,0 +1,19 @@
+# Application port on PROD
+server.port: ${PROD_SERVER_PORT}
+
+# Database configuration
+spring.jpa:
+  hibernate.ddl-auto: none
+  show-sql: false
+  properties.hibernate.format_sql: false
+spring.datasource:
+  url: ${PROD_DB_CONNECTION_URL}
+  username: ${PROD_DB_USERNAME}
+  password: ${PROD_DB_PASSWORD}
+
+# Logging configuration
+logging.level:
+  root: ERROR
+  org.springframework: ERROR
+  org.hibernate: ERROR
+  eu.pedrazamiguez.webapps.newsaggregator: ERROR

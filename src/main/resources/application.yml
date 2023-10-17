@@ -1,0 +1,21 @@
+# Active profile
+spring.profiles.active: ${ACTIVE_PROFILE:local}
+
+---
+
+# Application name and port
+spring.application.name: "News Aggregator"
+server.port: 9000
+
+# Database configuration
+spring.jpa:
+  open-in-view: false
+spring.datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+
+# Logging configuration
+logging.level:
+  root: ERROR
+  org.springframework: INFO
+  org.hibernate: INFO
+  eu.pedrazamiguez.webapps.newsaggregator: INFO

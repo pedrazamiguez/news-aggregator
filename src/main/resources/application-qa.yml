@@ -1,0 +1,19 @@
+# Application port on QA
+server.port: 3000
+
+# Database configuration
+spring.jpa:
+  hibernate.ddl-auto: none
+  show-sql: true
+  properties.hibernate.format_sql: true
+spring.datasource:
+  url: ${QA_DB_CONNECTION_URL}
+  username: ${QA_DB_USERNAME}
+  password: ${QA_DB_PASSWORD}
+
+# Logging configuration
+logging.level:
+  root: ERROR
+  org.springframework: INFO
+  org.hibernate: INFO
+  eu.pedrazamiguez.webapps.newsaggregator: INFO
